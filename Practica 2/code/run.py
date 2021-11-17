@@ -10,9 +10,14 @@ zc = search.GPSProblem('Z', 'C'
                        , search.romania)
 print(search.breadth_first_graph_search(ab).path())
 print(search.depth_first_graph_search(ab).path())
+print('----------------------')
 print(search.bnb_first_graph_search(ab).path())
 print(search.bnb_heur_first_graph_search(ab).path())
+print('----------------------')
+print(search.bnb_first_graph_search(ze).path())
 print(search.bnb_heur_first_graph_search(ze).path())
+print('----------------------')
+print(search.bnb_first_graph_search(zc).path())
 print(search.bnb_heur_first_graph_search(zc).path())
 
 # Result:
